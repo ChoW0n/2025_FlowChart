@@ -1,9 +1,121 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="페이지-1" id="ed81tNftd86jGSk5s89n">
-    <mxGraphModel>
+    <mxGraphModel dx="2040" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-1" target="voQF_tp9wbfbU-T3cQhf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-1" target="voQF_tp9wbfbU-T3cQhf-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="238.34000000000003" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-1" value="인벤토리 오픈" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-2" target="voQF_tp9wbfbU-T3cQhf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-2" value="플레이어의 슬롯 이동&lt;div&gt;입력&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-3" target="voQF_tp9wbfbU-T3cQhf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-3" value="해당 방향으로&lt;div&gt;선택 UI 슬롯 이동&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-6" target="voQF_tp9wbfbU-T3cQhf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-11" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="voQF_tp9wbfbU-T3cQhf-9">
+          <mxGeometry x="-0.2922" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-6" target="voQF_tp9wbfbU-T3cQhf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-14" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="voQF_tp9wbfbU-T3cQhf-13">
+          <mxGeometry x="-0.5635" y="1" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-6" value="해당 방향에&lt;div&gt;슬롯이 있다면?&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="61.66" y="380" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="670" as="targetPoint" />
+            <mxPoint x="298.2857142857142" y="445" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="298" y="720" />
+              <mxPoint x="40" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-12" value="선택 UI 이동하지&lt;div&gt;않음&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238.34" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-20" target="voQF_tp9wbfbU-T3cQhf-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="670" />
+              <mxPoint x="40" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-20" value="해당 슬롯 아이템의&lt;div&gt;정보를 출력&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-22" value="데이터 테이블에서&lt;div&gt;데이터 로드&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.000000000000014" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-24" target="voQF_tp9wbfbU-T3cQhf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428.33500000000004" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-24" value="아이템을&amp;nbsp;&lt;div&gt;사용했는가?&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-25" target="voQF_tp9wbfbU-T3cQhf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-25" target="voQF_tp9wbfbU-T3cQhf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-25" value="아이템을&amp;nbsp;&lt;div&gt;버리는가?&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-26" target="voQF_tp9wbfbU-T3cQhf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-26" value="아이템을&amp;nbsp;&lt;div&gt;장착했는가?&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="690" y="170" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voQF_tp9wbfbU-T3cQhf-22" target="voQF_tp9wbfbU-T3cQhf-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174.22" y="263.6" as="sourcePoint" />
+            <mxPoint x="422.4699499999999" y="219.99999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-35" value="사용 후 효과 발생&lt;div&gt;아이템 차감&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366.67" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-36" value="아이템 차감 후&lt;div&gt;떨어트림&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528.33" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voQF_tp9wbfbU-T3cQhf-37" value="아이템 장착 후&lt;div&gt;외형 업데이트&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688.33" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
